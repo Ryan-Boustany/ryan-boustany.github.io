@@ -27,14 +27,17 @@ def generateDid():
       "id": "did:web:ryan-boustany.github.io",
       "verificationMethod": [
           {
-              "id": "did:web:ryan-boustany.github.io#key-1",
+              "id": "did:web:ryan-boustany.github.io#owner",
               "type": "RsaVerificationKey2018",
               "controller": "did:web:ryan-boustany.github.io",
               "publicKeyPem": public_key.decode('utf-8')
           }
       ],
       "authentication": [
-          "did:web:ryan-boustany.github.io#key-1"
+          "did:web:ryan-boustany.github.io#owner"
+      ],
+      "assertionMethod": [
+          "did:web:ryan-boustany.github.io#owner"
       ]
   }
 

@@ -3,13 +3,16 @@
     "id": "did:web:ryan-boustany.github.io",
     "verificationMethod": [
         {
-            "id": "did:web:ryan-boustany.github.io#key-1",
+            "id": "did:web:ryan-boustany.github.io#owner",
             "type": "RsaVerificationKey2018",
             "controller": "did:web:ryan-boustany.github.io",
-            "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA12fi3WOD0BQum4Qw30z3\nZYcQyPUDDbp8gWaJorwwsF5KdolfZa2Hxigk0L0cw9qSqO4hJTVjRQj53vqaazuU\nBOSSdGXr4QNSOHPqKM/gV5cqBZNv3f/QTX+Ny0Gea+Y3N5qPGBPQZZzyFCBc1Y9H\nGc2zDoRdzfgFf3/Fco4JVFNCKyP/0daLBBiXhbaDWjRvm2vipjASzcZVVE4en6vr\ngiJfRwm8PmVqC5E1XT5+OCcAvbvxkcj6hrJZtjzFZwdjGBuuRnlnw5t/Hj7LmduK\niHnLd8QtzYyidW5x27KydW6aHrRhsU9goU989gtk1/EiGGp/3Ah1HSKkFTBg8hnx\nrwIDAQAB\n-----END PUBLIC KEY-----\n"
+            "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqA+MNTfL0M+YtGUquUyo\n7MjzwDVtbkGYlKSI5ymYSYfJn7/sqyDG36fNf+TucHtTM7cWnwDhzlscUReS9ER7\nP/Vo/5+5C4Rprm5az5E+4y8Q2qj4fHeW911MUTqm0Dt0fJKWrc1FFZpy6EkGyG9d\n8vxZLIWtgOsPDNM11VYfYz7/hArjTdjy5m1IJXL1fifUmxjIdYlRSSnTisUpe121\ngQ5Z45VKgyUFTXxmdbbgWzxOVrvxVsG4A8H1G46eQi+EO3ZZyuxIUkJxmkBxgWyZ\nQyFdpM9l03thlfgm4tceCRoLr7gM9tQ631xFWCx0jRRhKtVNs+ZbpgcItvkSB4Lb\nFwIDAQAB\n-----END PUBLIC KEY-----\n"
         }
     ],
     "authentication": [
-        "did:web:ryan-boustany.github.io#key-1"
+        "did:web:ryan-boustany.github.io#owner"
+    ],
+    "assertionMethod": [
+        "did:web:ryan-boustany.github.io#owner"
     ]
 }
